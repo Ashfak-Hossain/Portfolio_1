@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Signika&display=swap");
+
+:root {
+  --simrahFont: "Lilita One";
+  --normalFont: "Signika";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: var(--simrahFont);
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: var(--normalFont);
+}
+
+p {
+  font-family: var(--normalFont);
+  font-size: 20px;
+}
+
+.name-highlight {
+  color: palevioletred;
+}
+
+.section-top {
+  background-image: url(./images/background.svg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.hero-text {
+  float: left;
+  width: 50%;
+  margin: 4.5rem 0 0 3rem;
+  text-align: left;
+}
+
+.hero-photo img {
+  width: 40%;
+  float: left;
+  padding: 3rem 0 0 0;
+}
+
+.first-paragraph {
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+.first-div {
+  padding-left: 7rem;
+}
+
+.first-div h3 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem 0;
+}
+
+/* second section */
+
+.section-mid {
+  background-image: url(./images/background2.svg);
+  max-height: 95vh;
+}
+
+.second-name-highlight {
+  color: deeppink;
+}
+
+/* 3rd section */
+
+.experience-area {
+  background-image: url(./images/wave-haikei.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 70vh;
+}
+
+.experience-div1,
+.experience-div2 {
+  max-width: 42%;
+  margin: 2rem;
+  padding-left: 1rem;
+}
+
+.experience-div1 h3,
+.experience-div2 h3 {
+  font-family: var(--normalFont);
+  color: tomato;
+}
+
+.exp-h1 {
+  font-family: var(--simrahFont);
+}
+
+.exp-p {
+  font-family: var(--normalFont);
+}
+
+.single-experience {
+  border-radius: 5px;
+  height: 70%;
+  box-shadow: 1px 0px 25px 3px rgba(214, 201, 201, 0.38);
+  -webkit-box-shadow: 1px 0px 25px 3px rgba(214, 201, 201, 0.38);
+  -moz-box-shadow: 1px 0px 25px 3px rgba(214, 201, 201, 0.38);
+  border-left: 6px solid rgb(213, 45, 126);
+}
